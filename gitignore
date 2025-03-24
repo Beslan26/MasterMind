@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.pytest_cache/
+*.db
+
+# Виртуальное окружение
+venv/
+.env/
+.venv/
+
+# Программы IDE
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+
+# Логи
+*.log
+
+# Установленные пакеты
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# .env файл (для конфиденциальной информации)
+.env
+
+# SQLAlchemy файлы базы данных (если у вас локальная БД SQLite)
+*.sqlite3
+*.db
+
+# Установленные пакеты
+venv/
+__pycache__
